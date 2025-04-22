@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lista de Pedidos</title>
+  <link rel="stylesheet" href="pedido.css">
+</head>
+<body>
+  <main class="carrinho-container">
+    <h2 class="carrinho-titulo">Lanchonete Delivery</h2>
+    <table class="tabela-carrinho">
+      <thead>
+        <tr>
+          <th>Id</th>
+          <th>Cliente</th>
+          <th>Endereço</th>
+          <th>Produto</th>
+          <th>Data</th>
+          <th>Hora Pedido</th>
+          <th>Hora Saída</th>
+          <th>Hora Chegada</th>
+        </tr>
+      </thead>
+      <tbody id="corpo-tabela"></tbody>
+    </table>
+
+    <div class="carrinho-total">
+      <h3 id="total-geral">Total Geral R$: </h3>
+      <button onclick="window.location.href='index.html'">Voltar</button>
+    </div>
+  </main>
+
+  <script src="pedido.js"></script>
+</body>
+</html>
