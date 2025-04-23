@@ -92,7 +92,7 @@ button:hover {
 }
 
 .pedido-btn {
-    background-image: url('assets/check.png');
+    background-image: url('/assets/check.png');
     background-size: cover;
     background-position: center;
     width: 32px;
@@ -106,7 +106,7 @@ button:hover {
 }
 
 .entregar-btn {
-    background-image: url('assets/icone.png');
+    background-image: url('/assets/icone.png');
     background-size: cover;
     background-position: center;
     width: 32px;
@@ -147,40 +147,5 @@ button:hover {
     .form-group input,
     .form-group select {
         width: 100%;
-    }
-
-    .comeco {
-        flex-direction: column;
-        align-items: center;
-        gap: 10px;
-    }
-
-    .row {
-        flex-direction: column;
-        gap: 10px;
-    }
-
-    .column {
-        width: 100%;
-    }
-
-    button {
-        width: 100%;
-        padding: 10px;
-    }
-
-    .pedido {
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 10px;
-    }
-
-    .pedido .info {
-        width: 100%;
-    }
-
-    .pedido-btn,
-    .entregar-btn {
-        align-self: flex-end;
-    }
-}
+        margin-bottom: 10px;
+    }                                                                                                                                                                                                       
