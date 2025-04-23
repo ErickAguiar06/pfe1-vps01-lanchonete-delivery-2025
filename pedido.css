@@ -118,17 +118,32 @@ footer {
 }
 
 @media (max-width: 768px) {
+  .carrinho-container {
+    padding: 1rem;
+  }
+
+  .tabela-carrinho {
+    font-size: 0.9rem;
+  }
+
+  .tabela-carrinho th,
+  .tabela-carrinho td {
+    padding: 0.5rem;
+    font-size: 0.9rem;
+  }
+
   .carrinho-total {
     flex-direction: column;
     align-items: flex-start;
+    gap: 10px;
   }
 
   .carrinho-total h3 {
     margin-bottom: 1rem;
   }
 
-  .tabela-carrinho th,
-  .tabela-carrinho td {
-    font-size: 0.9rem;
+  .carrinho-total button {
+    width: 100%;
+    padding: 10px;
   }
 }
