@@ -92,7 +92,7 @@ button:hover {
 }
 
 .pedido-btn {
-    background-image: url('/check.png');
+    background-image: url('assets/check.png');
     background-size: cover;
     background-position: center;
     width: 32px;
@@ -106,7 +106,7 @@ button:hover {
 }
 
 .entregar-btn {
-    background-image: url('/icone.png');
+    background-image: url('assets/icone.png');
     background-size: cover;
     background-position: center;
     width: 32px;
