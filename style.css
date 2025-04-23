@@ -37,7 +37,7 @@ button {
 }
 
 button:hover {
-    background-color: #CCCCCC;
+    background-color: #FF0000;
 }
 
 .form-group {
@@ -92,7 +92,7 @@ button:hover {
 }
 
 .pedido-btn {
-    background-image: url('/assets/check.png');
+    background-image: url('assets/check.png');
     background-size: cover;
     background-position: center;
     width: 32px;
@@ -106,7 +106,7 @@ button:hover {
 }
 
 .entregar-btn {
-    background-image: url('/assets/icone.png');
+    background-image: url('assets/icone.png');
     background-size: cover;
     background-position: center;
     width: 32px;
@@ -148,4 +148,5 @@ button:hover {
     .form-group select {
         width: 100%;
         margin-bottom: 10px;
-    }                                                                                                                                                                                                       
+    }
+}
