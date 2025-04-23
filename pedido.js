@@ -2,8 +2,6 @@ document.addEventListener('DOMContentLoaded', function () {
   const corpoTabela = document.getElementById('corpo-tabela');
   const pedidos = JSON.parse(localStorage.getItem('pedidos')) || [];
 
-  let totalPedidos = 0;
-
   pedidos.forEach((pedido) => {
     const linha = document.createElement('tr');
     linha.innerHTML = `
@@ -12,12 +10,9 @@ document.addEventListener('DOMContentLoaded', function () {
       <td>${pedido.endereco}</td>
       <td>${pedido.produto}</td>
       <td>${pedido.data}</td>
-      <td>${pedido.horaSaida}</td>
-      <td>-</td> <!-- Hora Chegada pode ser preenchida manualmente -->
+      <td>${pedido.horaSaida || '-'}</td>
+      <td>${pedido.horaChegada || '-'}</td>
     `;
     corpoTabela.appendChild(linha);
-    totalPedidos++;
   });
-
-  document.getElementById('total-geral').textContent = `Total Geral R$: ${totalPedidos},00`;
 });
